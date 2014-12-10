@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+override.model.enablements=false
+show.advanced.properties=true
+target.runtime=org.eclipse.bpmn2.modeler.runtime.none

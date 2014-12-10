@@ -13,3 +13,4 @@ hs_err_pid*
 
 # MacOS folders attributes
 .DS_Store
+/bin/
