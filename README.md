@@ -17,7 +17,15 @@ You can then clone this repository (or fork and clone) and import the project in
 
 ## Contributing
 
+Contributions are welcome. You can for example share new worlds or new exercises. Just fork this repo and send a merge request.
+
+> Note: please do not push the solutions to the Stanford assignments.
+
 ## Bugs and feature requests
+
+Detailed installation instructions are available on my blog. Please read it carefully and post installation issues in the comments.
+
+Anything else can be posted in the repository ussues tracker.
 
 ## Copyright and license
 
