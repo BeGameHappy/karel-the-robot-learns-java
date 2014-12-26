@@ -11,7 +11,7 @@ First of all, the ``.jar`` is only comptible with Java 1.6, meaning JRE 1.6 shou
 
 > Note: Eclipse requires Java also, and the JRE used for Eclipse can be different from the JRE used for Karel. You will probably prefer run Eclipse on the latest Java version.
 
-Java 1.6 is no longer officially supported. It has to be downloaded from the [Java archive page][java-archive]. Run the installer and add JRE 1.6 to the Eclipse JRE.
+Java 1.6 is no longer officially supported. It has to be downloaded from the [Java archive page][java-archive]. Run the installer and add it to the Eclipse available JRE.
 
 You can then clone this repository (or fork and clone) and import the project into Eclipse. Run configurations are available for each worlds from the Stanford assignments.
 
@@ -25,8 +25,10 @@ Contributions are welcome. You can for example share new worlds or new exercises
 
 Detailed installation instructions are available on my blog. Please read it carefully and post installation issues in the comments.
 
-Anything else can be posted in the repository ussues tracker.
+Anything else can be posted in the repository issues tracker.
 
 ## Copyright and license
+
+The main code comes from the Stanford CS106A Programming Methodology course without license of any kind. All credit goes to Stanford and probably to Eric Roberts.
 
 [java-archive]: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
