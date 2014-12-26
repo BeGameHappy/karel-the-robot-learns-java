@@ -7,7 +7,13 @@ This repository contains an Eclipse project for running Karel-the-Robot in Java.
 
 ## Quick start
 
+First of all, the ``.jar`` is only comptible with Java 1.6, meaning JRE 1.6 should be installed on your computer.
 
+> Note: Eclipse requires Java also, and the JRE used for Eclipse can be different from the JRE used for Karel. You will probably prefer run Eclipse on the latest Java version.
+
+Java 1.6 is no longer officially supported. It has to be downloaded from the [Java archive page][java-archive]. Run the installer and add JRE 1.6 to the Eclipse JRE.
+
+You can then clone this repository (or fork and clone) and import the project into Eclipse. Run configurations are available for each worlds from the Stanford assignments.
 
 ## Contributing
 
@@ -15,3 +21,4 @@ This repository contains an Eclipse project for running Karel-the-Robot in Java.
 
 ## Copyright and license
 
+[java-archive]: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
