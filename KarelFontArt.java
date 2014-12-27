@@ -22,6 +22,8 @@ public class KarelFontArt extends SuperKarel {
 		upperE();
 		nextChar();
 		upperL();
+		endOfLine();
+		lowerT();
 	}
 	
 	private void moveTop() {
@@ -32,7 +34,7 @@ public class KarelFontArt extends SuperKarel {
 		turnRight();
 	}
 	
-	private void getBack() {
+	private void getBackUpper() {
 		turnRight();
 		move();
 		turnRight();
@@ -41,7 +43,17 @@ public class KarelFontArt extends SuperKarel {
 		}
 		turnAround();
 	}
-	
+
+	private void getBackLower() {
+		turnRight();
+		move();
+		turnRight();
+		for (int i = 0; i < 12; i++) {
+			move();
+		}
+		turnAround();
+	}
+
 	private void nextChar() {
 		for (int i = 0; i < 14; i++) {
 			move();
@@ -53,7 +65,17 @@ public class KarelFontArt extends SuperKarel {
 		turnRight();
 		move();
 	}
-	
+
+	private void endOfLine() {
+		turnRight();
+		move();
+		turnRight();
+		while (frontIsClear()) {
+			move();
+		}
+		turnAround();
+	}
+
 	private void upperK() {
 		//Line #1
 		move();
@@ -77,7 +99,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #2
 		putBeeper();
@@ -103,7 +125,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #3
 		putBeeper();
@@ -131,7 +153,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #4
 		putBeeper();
@@ -161,7 +183,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #5
 		putBeeper();
@@ -191,7 +213,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #6
 		putBeeper();
@@ -220,7 +242,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #7
 		putBeeper();
@@ -248,7 +270,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #8
 		putBeeper();
@@ -277,7 +299,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #9
 		putBeeper();
@@ -307,7 +329,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #10
 		putBeeper();
@@ -338,7 +360,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #11
 		putBeeper();
@@ -368,7 +390,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #12
 		putBeeper();
@@ -397,7 +419,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();	
+		getBackUpper();	
 		
 		//Line #13
 		putBeeper();
@@ -425,7 +447,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();	
+		getBackUpper();	
 		
 		//Line #14
 		move();
@@ -449,7 +471,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();	
+		getBackUpper();	
 	}
 
 	private void upperA() {
@@ -477,7 +499,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #2
 		move();
@@ -503,7 +525,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #3
 		putBeeper();
@@ -532,7 +554,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #4
 		putBeeper();
@@ -560,7 +582,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #5
 		putBeeper();
@@ -588,7 +610,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #6
 		putBeeper();
@@ -619,7 +641,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #7
 		putBeeper();
@@ -650,7 +672,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #8
 		putBeeper();
@@ -678,7 +700,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #9
 		putBeeper();
@@ -706,7 +728,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #10
 		putBeeper();
@@ -734,7 +756,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #11
 		putBeeper();
@@ -762,7 +784,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #12
 		putBeeper();
@@ -790,7 +812,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #13
 		putBeeper();
@@ -818,7 +840,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #14
 		move();
@@ -842,7 +864,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 	}
 	
 	private void upperR() {
@@ -871,7 +893,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #2
 		putBeeper();
@@ -899,7 +921,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #3
 		putBeeper();
@@ -929,7 +951,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #4
 		putBeeper();
@@ -957,7 +979,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #5
 		putBeeper();
@@ -985,7 +1007,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #6
 		putBeeper();
@@ -1016,7 +1038,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #7
 		putBeeper();
@@ -1046,7 +1068,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #8
 		putBeeper();
@@ -1075,7 +1097,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #9
 		putBeeper();
@@ -1105,7 +1127,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #10
 		putBeeper();
@@ -1136,7 +1158,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #11
 		putBeeper();
@@ -1166,7 +1188,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #12
 		putBeeper();
@@ -1195,7 +1217,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #13
 		putBeeper();
@@ -1223,7 +1245,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #14
 		move();
@@ -1247,7 +1269,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 	}
 		
 	private void upperE() {
@@ -1277,7 +1299,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #2
 		putBeeper();
@@ -1306,7 +1328,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #3
 		putBeeper();
@@ -1335,7 +1357,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #4
 		putBeeper();
@@ -1359,7 +1381,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #5
 		putBeeper();
@@ -1383,7 +1405,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #6
 		putBeeper();
@@ -1413,7 +1435,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #7
 		putBeeper();
@@ -1444,7 +1466,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #8
 		putBeeper();
@@ -1474,7 +1496,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #9
 		putBeeper();
@@ -1498,7 +1520,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #10
 		putBeeper();
@@ -1522,7 +1544,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #11
 		putBeeper();
@@ -1552,7 +1574,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #12
 		putBeeper();
@@ -1583,7 +1605,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #13
 		putBeeper();
@@ -1614,7 +1636,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #14
 		move();
@@ -1643,7 +1665,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 	}
 	
 	private void upperL() {
@@ -1667,7 +1689,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #2
 		putBeeper();
@@ -1689,7 +1711,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #3
 		putBeeper();
@@ -1712,7 +1734,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #4
 		putBeeper();
@@ -1736,7 +1758,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #5
 		putBeeper();
@@ -1760,7 +1782,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #6
 		putBeeper();
@@ -1784,7 +1806,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #7
 		putBeeper();
@@ -1808,7 +1830,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #8
 		putBeeper();
@@ -1832,7 +1854,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #9
 		putBeeper();
@@ -1856,7 +1878,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #10
 		putBeeper();
@@ -1880,7 +1902,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #11
 		putBeeper();
@@ -1910,7 +1932,7 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
 
 		//Line #12
 		putBeeper();
@@ -1941,7 +1963,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #13
 		putBeeper();
@@ -1972,7 +1994,7 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		putBeeper();
 		move();
-		getBack();
+		getBackUpper();
 		
 		//Line #14
 		putBeeper();
@@ -2002,6 +2024,275 @@ public class KarelFontArt extends SuperKarel {
 		putBeeper();
 		move();
 		move();
-		getBack();
+		getBackUpper();
+	}
+	
+	private void lowerT() {
+		//Line #1
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #2
+		putBeeper();
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+
+		//Line #3
+		putBeeper();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+		
+		//Line #4
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #5
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #6
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #7
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #8
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #9
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #10
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #11
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #12
+		move();
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
 	}
 }

@@ -1,1 +1,1 @@
-Dimension: (75, 15)BeeperBag: INFINITYKarel: (1, 1) EastSpeed: 0.90
+Dimension: (75, 28)BeeperBag: INFINITYKarel: (1, 1) EastSpeed: 0.95
