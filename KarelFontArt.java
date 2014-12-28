@@ -27,6 +27,8 @@ public class KarelFontArt extends SuperKarel {
 		nextCharLower();
 		lowerH();
 		nextCharLower();
+		lowerE();
+		endOfLine();
 	}
 	
 	private void moveTop() {
@@ -2600,6 +2602,309 @@ public class KarelFontArt extends SuperKarel {
 		move();
 		move();
 		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+	}
+	
+	private void lowerE() {
+		//Line #1
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #2
+		putBeeper();
+		move();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+		
+		//Line #3
+		putBeeper();
+		move();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #4
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #5
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #6
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+		
+		//Line #7
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #8
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		move();
+		move();
+		move();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #9
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		move();
+		getBackLower();
+		
+		//Line #10
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+		
+		//Line #11
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		getBackLower();
+		
+		//Line #12
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
+		move();
+		putBeeper();
 		move();
 		putBeeper();
 		move();
