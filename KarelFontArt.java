@@ -15,14 +15,15 @@ public class KarelFontArt extends SuperKarel {
 		moveTop();
 		upperK();
 		nextCharUpper();
-		//upperA();
-		//nextCharUpper();
-		//upperR();
-		//nextCharUpper();
-		//upperE();
-		//nextCharUpper();
+		upperA();
+		nextCharUpper();
+		upperR();
+		nextCharUpper();
+		upperE();
+		nextCharUpper();
 		upperL();
 		endOfLine();
+		move18();
 		lowerT();
 		nextCharLower();
 		lowerH();
@@ -92,6 +93,11 @@ public class KarelFontArt extends SuperKarel {
 		move();
 	}
 
+	private void move18() {
+		for (int i = 0; i < 18; i++) {
+			move();
+		}		
+	}
 	
 	private void endOfLine() {
 		turnRight();
