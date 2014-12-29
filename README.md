@@ -31,4 +31,7 @@ Anything else can be posted in the repository issues tracker.
 
 The main code comes from the Stanford CS106A Programming Methodology course without license of any kind. All credit goes to Stanford and probably to Eric Roberts.
 
+Font credit to [Yuji Oshimoto][04] for exercise KarelFontArt.
+
 [java-archive]: http://www.oracle.com/technetwork/java/javase/downloads/java-archive-downloads-javase6-419409.html
+[04]:  http://www.04.jp.org/
